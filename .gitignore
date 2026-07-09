@@ -1,0 +1,33 @@
+# Secrets / env
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+
+# Node / frontend
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+
+# Tooling / editors / OS — installed agent skills are vendored, not committed
+.claude/
+.agents/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.sqlite
+*.db
+skills-lock.json
+# Skills CLI lockfile (agent tooling, not part of the app)
+skills-lock.json
